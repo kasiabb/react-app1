@@ -8,3 +8,9 @@
   font-family: $font-text;
   border-radius: $radius;
 }
+@media screen and (max-width: 768px) {
+  .input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
